@@ -30,7 +30,7 @@ app.get('/api/token/:token_id', function(req, res) {
       "cards":"Non Fungible Tokenss"
       // 'age': moment().diff(person.birthday, 'years')
     },
-    'image': `${HOST}/images/${tokenId}.gif`
+    'image': `${HOST}/images/${tokenId}.png`
 
     // 'birthday': person.birthday,
     // 'birth month': monthName(month),
